@@ -8,6 +8,7 @@ public class Perimeter_of_a_Rectangle {
         System.out.print("Enter the breadth of Rectangle : ");
         float breadth = sc.nextFloat();
         float perimeter = 2 * (length * breadth);
+        
         System.out.println("Perimeter of a Rectangle : "+perimeter);
     }
 }
