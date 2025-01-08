@@ -10,6 +10,7 @@ public class Calculate_Average_of_Three_Numbers {
         System.out.print("Enter your 3st number : ");
         int num3 = sc.nextInt();
         float average = ((float)(num1+num2+num3))/3f;
+        
         System.out.print("Average : "+average);
     }
 }
