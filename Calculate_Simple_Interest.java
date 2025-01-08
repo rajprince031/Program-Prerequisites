@@ -10,6 +10,8 @@ public class Calculate_Simple_Interest {
         System.out.print("Enter the Time : ");
         float time = sc.nextFloat();
         float area = (principle * rate * time) / 100 ;
+
         System.out.println("Simple Interest : "+area);
+        
     }
 }
