@@ -7,6 +7,8 @@ public class Volume_of_a_Cylinder {
         System.out.print("Enter the height of Cylinder : ");
         float height = sc.nextFloat();
         float area = (22f/7f) * (radius * radius * height);
+
         System.out.println("Area of Circle : "+area);
+        
     }
 }
