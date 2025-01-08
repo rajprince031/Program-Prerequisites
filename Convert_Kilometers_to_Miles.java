@@ -6,6 +6,7 @@ public class Convert_Kilometers_to_Miles {
         System.out.print("Enter the dustance(in KM) : ");
         float kilometer = sc.nextFloat();
         float miles = kilometer * 0.621371f;
+        
         System.out.println("Distance in Miles : "+miles);
     }
 }
